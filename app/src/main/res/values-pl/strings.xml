@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SDMMistrzejowice</string>
+    <string name="alert_no_internet">Aplikacja wymaga dostępu do internetu. Włącz WiFi lub przesył danych i zrestartuj aplikację.</string>
+    <string name="label_go_to_settings">Idź do ustawień</string>
+    <string name="label_dialog_warning">Uwaga</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Anuluj</string>
+    <string name="alert_no_gps">Aby zapewnić pełną funkcjonalnośc aplikaji, włącz GPS w ustawieniach.</string>
+    <string name="label_not_now">Nie teraz</string>
+    <string name="alert_no_gps_permission">Aplikacja wymaga dostępu do lokalizacji urządzenia. Jest używana tylko do pokazania własnej pozycji na mapie. Nie przechowujemy i nie udostępniamy tych danych.</string>
+</resources>

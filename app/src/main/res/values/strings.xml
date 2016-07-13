@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translatable="false">SDMMistrzejowice</string>
+    <string name="alert_no_internet">The application requires an internet connection. Please turn on WiFi or mobile data connection and restart the application.</string>
+    <string name="label_go_to_settings">Go to settings</string>
+    <string name="label_dialog_warning">Warning</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="alert_no_gps">To ensure full functionality of the application, please turn on GPS in settings.</string>
+    <string name="label_not_now">Not now</string>
+    <string name="alert_no_gps_permission">This application requires that you allow it to access device\'s location data. It is used only to show your location. We do not store or share this data.</string>
+    <string name="title_activity_main">ŚDM Mistrzejowice</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
