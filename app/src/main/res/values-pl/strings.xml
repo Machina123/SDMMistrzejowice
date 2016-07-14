@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SDMMistrzejowice</string>
     <string name="alert_no_internet">Aplikacja wymaga dostępu do internetu. Włącz WiFi lub przesył danych i zrestartuj aplikację.</string>
     <string name="label_go_to_settings">Idź do ustawień</string>
     <string name="label_dialog_warning">Uwaga</string>
@@ -8,5 +7,16 @@
     <string name="label_cancel">Anuluj</string>
     <string name="alert_no_gps">Aby zapewnić pełną funkcjonalnośc aplikaji, włącz GPS w ustawieniach.</string>
     <string name="label_not_now">Nie teraz</string>
-    <string name="alert_no_gps_permission">Aplikacja wymaga dostępu do lokalizacji urządzenia. Jest używana tylko do pokazania własnej pozycji na mapie. Nie przechowujemy i nie udostępniamy tych danych.</string>
+    <string name="alert_no_gps_permission">Aplikacja wymaga dostępu do lokalizacji urządzenia. Jest używana tylko do pokazania własnej pozycji na mapie. Nie przechowujemy i nie udostępniamy tych danych. Czy chcesz włączyć dane o lokalizacji?</string>
+    <string name="label_yes">Tak</string>
+    <string name="alert_permissions_later">Możesz przyznać pozwolenie później, w Ustawieniach</string>
+    <string name="app_name" translatable="false"></string>
+    <string name="map_click_to_navigate">Naciśnij, aby nawigować</string>
+    <string name="category_bank">Bank</string>
+    <string name="category_church">Kościół</string>
+    <string name="category_exchange">Kantor</string>
+    <string name="category_pharmacy">Apteka</string>
+    <string name="category_school">Szkoła</string>
+    <string name="category_shop">Sklep spożywczy</string>
+    <string name="category_clinic">Przychodnia</string>
 </resources>
