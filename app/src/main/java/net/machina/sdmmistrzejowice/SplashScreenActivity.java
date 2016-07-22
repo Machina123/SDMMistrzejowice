@@ -229,17 +229,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                 ex.printStackTrace();
             }
         } else {
-            try {
-                output.delete();
-                output.createNewFile();
-                BufferedSink sink = Okio.buffer(Okio.sink(output));
-                Source assetInput = Okio.source(getAssets().open("points.csv"));
-                sink.writeAll(assetInput);
-                sink.close();
-                assetInput.close();
-            } catch (Exception ex) {
-                ex.printStackTrace();
-            }
+            Toast.makeText(SplashScreenActivity.this, "Points file exists, ignoring", Toast.LENGTH_SHORT).show();
         }
     }
 
