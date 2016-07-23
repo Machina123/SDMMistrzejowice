@@ -2,6 +2,9 @@ package net.machina.sdmmistrzejowice.common;
 
 import android.content.Context;
 
+import com.google.android.gms.maps.model.BitmapDescriptor;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+
 import net.machina.sdmmistrzejowice.R;
 
 public class MapData {
@@ -32,6 +35,27 @@ public class MapData {
                 return context.getString(R.string.category_school);
             default:
                 return "Unknown";
+        }
+    }
+
+    public static BitmapDescriptor getPointIcon(int category) {
+        switch(category) {
+            case POINT_CHURCH:
+                return BitmapDescriptorFactory.fromResource(R.drawable.church);
+            case POINT_SHOP:
+                return BitmapDescriptorFactory.fromResource(R.drawable.shop32);
+            case POINT_PHARMACY:
+                return BitmapDescriptorFactory.fromResource(R.drawable.pharmacy32);
+            case POINT_BANK:
+                return BitmapDescriptorFactory.fromResource(R.drawable.bank32);
+            case POINT_EXCHANGE:
+                return BitmapDescriptorFactory.fromResource(R.drawable.exchange32);
+            case POINT_CLINIC:
+                return BitmapDescriptorFactory.fromResource(R.drawable.first_aid32);
+            case POINT_SCHOOL:
+                return BitmapDescriptorFactory.fromResource(R.drawable.accomodation32);
+            default:
+                return BitmapDescriptorFactory.defaultMarker();
         }
     }
 }

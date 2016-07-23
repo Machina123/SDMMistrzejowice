@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
-        <item android:id="@+id/nav_camara" android:icon="@android:drawable/ic_menu_camera"
-            android:title="Import" />
-        <item android:id="@+id/nav_gallery" android:icon="@android:drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item android:id="@+id/nav_slideshow" android:icon="@android:drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item android:id="@+id/nav_manage" android:icon="@android:drawable/ic_menu_manage"
-            android:title="Tools" />
-    </group>
-
-    <item android:title="Communicate">
+    <item android:title="@string/menu_select_category">
         <menu>
-            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
-                android:title="Share" />
-            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
-                android:title="Send" />
+            <item android:id="@+id/menu_cat_church" android:icon="@drawable/church" android:title="@string/category_church"/>
+            <item android:id="@+id/menu_cat_accomodation" android:icon="@drawable/accomodation" android:title="@string/category_school"/>
+            <item android:id="@+id/menu_cat_exchange" android:icon="@drawable/exchange" android:title="@string/category_exchange"/>
+            <item android:id="@+id/menu_cat_bank" android:icon="@drawable/bank" android:title="@string/category_bank"/>
+            <item android:id="@+id/menu_cat_grocery" android:icon="@drawable/shop" android:title="@string/category_shop"/>
+            <item android:id="@+id/menu_cat_pharmacy" android:icon="@drawable/pharmacy" android:title="@string/category_pharmacy"/>
+            <item android:id="@+id/menu_cat_medicalcenter" android:icon="@drawable/first_aid" android:title="@string/category_clinic"/>
+            <item android:id="@+id/menu_cat_all" android:title="@string/category_all"/>
         </menu>
     </item>
 
+    <item android:id="@+id/menu_emergency" android:title="@string/menu_emergency"/>
+    <item android:id="@+id/menu_about" android:title="@string/menu_about_license"/>
 </menu>

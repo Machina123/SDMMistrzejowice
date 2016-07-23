@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="240sp"
         android:id="@+id/imageView"
-        android:src="@drawable/sdm_logo_transparent"
+        android:src="@drawable/mistrz2"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"

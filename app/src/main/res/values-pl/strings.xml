@@ -10,13 +10,22 @@
     <string name="alert_no_gps_permission">Aplikacja wymaga dostępu do lokalizacji urządzenia. Jest używana tylko do pokazania własnej pozycji na mapie. Nie przechowujemy i nie udostępniamy tych danych. Czy chcesz włączyć dane o lokalizacji?</string>
     <string name="label_yes">Tak</string>
     <string name="alert_permissions_later">Możesz przyznać pozwolenie później, w Ustawieniach</string>
-    <string name="app_name" translatable="false"></string>
+    <string name="app_name" translatable="false">ŚDM Mistrzejowice</string>
     <string name="map_click_to_navigate">Naciśnij, aby nawigować</string>
     <string name="category_bank">Bank</string>
     <string name="category_church">Kościół</string>
     <string name="category_exchange">Kantor</string>
     <string name="category_pharmacy">Apteka</string>
-    <string name="category_school">Szkoła</string>
     <string name="category_shop">Sklep spożywczy</string>
     <string name="category_clinic">Przychodnia</string>
+    <string name="menu_select_category">Wybierz kategorię celu</string>
+    <string name="category_school">Zakwaterowanie</string>
+    <string name="category_all">Wszystkie kategorie</string>
+    <string name="menu_emergency">W sytuacji alarmowej...</string>
+    <string name="menu_about_license">O programie...</string>
+    <string name="call_emergency">Zadzwoń pod numer alarmowy (112)</string>
+    <string name="call_police">Zadzwoń na Policję (997)</string>
+    <string name="call_paramedic">Zadzwoń na Pogotowie (999)</string>
+    <string name="call_firedept">Zadzwoń na Straż pożarną (998)</string>
+    <string name="call_safetyline">Telefon bezp. dla turystów (+48608599999)</string>
 </resources>
